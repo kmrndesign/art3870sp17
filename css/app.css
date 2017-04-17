@@ -27,6 +27,16 @@ li {
     float: left;
     height: 40px;
 }
+.symbol{
+	opacity: 0.5;
+	margin-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	transition: opacity 0.9s ease;
+}
+.symbol:hover{
+	opacity: 1.0;
+}
 
 li a {
 	transition: background-color 0.5s ease;
@@ -107,44 +117,43 @@ footer{
 	margin: 0 auto;
 	text-justify: center;
 }
-.large-6{
+.top{
+	color: #f4f4f4;
 	float: left;
 	margin: 0 auto;
-	width: 50%;
 	height: 400px;
 	font-size: 2em;
 
 }
-.large-6:hover{
-	transition: all 0.3s ease;
+.top:hover{
+	transition: all 0.3s ease-in;
+	transition: all 0.3s ease-out;
 	transform: translate(0,-10px);
-}
-.right{
-	float: right;
-	margin: 0 auto;
-	width: 50%;
-	height: 400px;
-	font-size: 40px;
 }
 .large-3{
 text-align: left;
 }
-.large-4{
+.bottom{
 	transition: background-color 1.0s ease;
 	transition: box-shadow 0.5s ease;
 
 }
-.large-4:hover{
+.bottom:hover{
 	background: rgba(81, 81, 224, 0.2);
 	box-shadow: 0 0 40px 7px rgba(81, 81, 224, 0.8);
 }
 
 
 
+ }
+  @media print, screen and (min-width: 64em) {
+.top{
+	display: none;
+} 
+  }
+  @media screen and (max-width: 39.9375em) {
 
-
-@media only screen and (max-width: 600px){
-	.column{
-		background-color: lightblue;
-	}
-}
+.right{
+	display: none;
+} 
+    }

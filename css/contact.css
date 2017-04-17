@@ -1,14 +1,14 @@
 body{
 	background-image: url('../_pix/toppic2.png');
-	background-color: #d6d5d6;
+	background-color: #aa2b2b;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
     background-position: center top;
 }
 
 nav{
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 
 }
 ul {
@@ -27,9 +27,19 @@ li {
     float: left;
     height: 40px;
 }
+.symbol{
+    opacity: 0.5;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: opacity 0.9s ease;
+}
+.symbol:hover{
+    opacity: 1.0;
+}
 
 li a {
-	transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
     display: block;
     color: white;
     text-align: center;
@@ -56,9 +66,15 @@ footer{
     height: 40px;
     float: left;
     text-align: center;
-       position:fixed;
-   left:0px;
-   bottom:0px;
+    position: absolute;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+p{
+    font-size: 14px;
+    font-family: 'Palanquin Dark', sans-serif;
 }
 .top{
         margin-top: 70px;
@@ -74,15 +90,17 @@ footer{
     padding: 50px;
     font-family: 'Palanquin Dark', sans-serif;
     text-decoration: none;
+        border-top: dashed 1px black;
 }
-.large-12{
-     font-family: 'Palanquin Dark', sans-serif;
-    text-decoration: none;
-    transition: background-color 1.0s ease;
-    transition: box-shadow 0.5s ease;
 
 }
-.large-12:hover{
-    background: rgba(81, 81, 224, 0.2);
-    box-shadow: 0 0 40px 7px rgba(81, 81, 224, 0.8);
+.symbol{
+    opacity: 0.5;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    transition: opacity 0.9s ease;
+}
+.symbol:hover{
+    opacity: 1.0;
 }

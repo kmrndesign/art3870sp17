@@ -7,63 +7,109 @@
     <title>KMRN Graphic Design</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+
+
+
 
   </head>
   <body>
-
   <nav>
-        <ul>
-          <li><img class="symbol" alt="headsymbol" src="pix/symbol.png"></li>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="top-bar">
+          <div class="top-bar-title">
+            <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+              <button class="menu-icon dark" type="button" data-toggle></button>
+            </span>
+            <strong><img class="symbol" alt="headsymbol" src="pix/symbol.png"></strong>
+          </div>
+          <div id="responsive-menu">
+            <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                  <a class="active" href="index.html">Home</a>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a>
+                    <ul class="menu vertical">
+                    <li><a href="#">One</a></li>
+                    <li><a href="#">Two</a></li>
+                    <li><a href="#">Three</a></li>
+                  </ul></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="top-bar-right">
+              <ul class="menu">
+                <li><input type="search" placeholder="Search"></li>
+                <li><button type="button" class="button">Search</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
   </nav>
 
   <article class="row">
-      <div class="header">
-        <a href="index.html"><img class="logo" alt="headlogo" src="pix/kmrn_2017-01.png"></a>
+      <div class="large-12 columns">
+        <a href="index.html"><img class="center" alt="headlogo" src="pix/kmrn_2017-01.png"></a>
       </div>
   </article>
       <article class="row">
-        <section class="small-12 medium-12 large-6 top">
+        <section class="small-12 medium-12 large-12 columns">
           <div class="text">
           <h1>
-             HELLO & WELCOME.
-            </h1>
-            <p>
-            So far you've made all the right choices in life.
-            </p>
-          </div>
-        </section>
-
-        <section class="small-12 medium-12 large-6 right top">
-          <div class="text">
-            <h1>
-              Redesign your brand.
+             Designing In Color
             </h1>
           </div>
         </section>
       </article>
 
       <article class="row">
-        <a href="portfolio.html">
-        <div class="column large-6 bottom">
-          PORTFOLIO
-        </div>
-        </a>
-        <a href="contact.html"> 
-        <div class="column large-6 bottom">
-          CONTACT
-        </div>
-        </a>
+      
+        <section class="large-6 medium-6 columns">
+          <div class="text">
+          <a><img src="pix/birdsinthetrapthumb.png">
+          <p>ALBUM DESIGN</p>
+          </a>
+          </div>
+        </section>
+        
+
+       
+        <section class="large-6 medium-6 columns">
+          <div class="text">
+          <a><img src="pix/digpaintthumb.png">
+          <p>DIGITAL PAINTING</p>
+          </a>
+          </div>
+        </section>
+        
+      </article>
+
+            <article class="row">
+        <section class="large-6 medium-6 columns">
+          <div class="text">
+          <a><img src="pix/photoeditthumb.png">
+          <p>PHOTO EDITING</p>
+          </a>
+          </div>
+        </section>
+        <section class="large-6 medium-6 columns">
+          <div class="text">
+          <a href="contact.html">
+          <img src="pix/wavethumb.png">
+          <p>BRANDING</p>
+          </a>
+          </div>
+        </section>
       </article>
 
 
-        <footer class="small-12 medium-12 large-12">
+        <footer class="small-12 medium-12 large-12 columns">
+          <div class="text">
           <p>© 2017 KMRN Graphic Design</p>
+          </div class="text">
         </footer>
       
 

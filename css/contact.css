@@ -8,11 +8,11 @@ a{
     color: #000000;
 }
 h1{
-    color:#534f9c;
+    color:#55b848;
     font-family: 'Rock Salt', cursive;
 }
 p{
-    color:#d81f6a;
+    color:#705298;
 font-family: 'Archivo Black', sans-serif;
 
 }
@@ -24,7 +24,7 @@ font-family: 'Archivo Black', sans-serif;
     text-align: center;
 }
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after{
-    border-color: #d81f6a transparent transparent;
+    border-color: #705298 transparent transparent;
 }
 .top-bar{
     background-color: #f0efef;

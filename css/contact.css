@@ -13,8 +13,13 @@ h1{
 }
 p{
     color:#705298;
-font-family: 'Unica One', cursive;
+    font-family: 'Unica One', cursive;
 
+
+}
+label{
+    color: #705298;
+    font-family: 'Unica One', cursive;
 }
 .center{
     margin: auto;

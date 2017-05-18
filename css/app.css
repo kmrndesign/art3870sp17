@@ -18,6 +18,10 @@ font-family: 'Unica One', cursive;
 
 
 }
+.blur:hover {
+	webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
 .hover:hover{
 	background-color: #aaaaaa;
 }

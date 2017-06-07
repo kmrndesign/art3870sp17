@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hi {
+	width:  105px;
+	height: 105px;
+    background-image: url(../pics/explode.png);
+    -webkit-animation: play 0.8s steps(9) infinite;
+	-moz-animation: play .8s steps(9) infinite;
+	-ms-animation: play .8s steps(9) infinite;
+	-o-animation: play .8s steps(9) infinite;
+	animation: play .8s steps(9) infinite;
+}
+
+@-webkit-keyframes play {
+   100% { background-position: -900px; }
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+	border-color: #d81f6a transparent transparent;
+}
+.top-bar{
+	background-color: #000000;
+}
+.top-bar ul{
+	background-color: #000000;
+}

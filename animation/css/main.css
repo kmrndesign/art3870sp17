@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+.damn{
+	font-family: 'Libre Baskerville', serif;
+
+	color: black;
+	font-size: 10px;
+	text-align: center;
+	padding: 0;
+	margin: 0 auto;
+	position: fixed;
+   min-height: 100%;
+   width: 100%;
+   opacity: 0.0;
+}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+	border-color: #d81f6a transparent transparent;
+}
+.top-bar{
+	background-color: #000000;
+}
+.top-bar ul{
+	background-color: #000000;
+}
+.damn:hover{
+	opacity: 1.0;
+		color: red;
+	text-align: center;
+	font-size: 490px;
+	transition: all 4s;
+}

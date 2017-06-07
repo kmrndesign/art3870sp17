@@ -1,0 +1,85 @@
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+	border-color: #d81f6a transparent transparent;
+}
+.top-bar{
+	background-color: #000000;
+}
+.top-bar ul{
+	background-color: #000000;
+}
+h1{
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+span{
+  transform:rotate();
+  transition:all 2s;
+    display:inline-block;
+}
+
+.one:hover{
+  color:red;
+  font-size:40px
+
+  line-height:55px;
+  opacity: 1.0; 
+  transition: all 4s;
+  
+
+}
+.one{
+  color:black;
+  width: 150px;
+  text-align:center;
+  font-size:90px;
+  line-height:55px;
+  padding:0;
+  margin:0 auto;
+  opacity: 0.0;
+
+}
+.two:hover span{
+  color:red;
+  font-size:40px;
+  line-height:55px;
+  transform:rotate(3600deg);
+  
+
+}
+.two{
+  color:black;
+  width: 150px;
+  text-align:center;
+  font-size:30px;
+  line-height:55px;
+  padding:0;
+  margin:0 auto;
+
+}
+.three:hover{
+  color:red;
+  font-size:40px;
+  line-height:55px;
+  opacity: 1.0;
+  transition: all 4s;
+  
+
+}
+.three{
+	opacity: 0.0;
+  color:black;
+  width: 150px;
+  text-align:center;
+  font-size:90px;
+  line-height:55px;
+  padding:0;
+  margin:0 auto;
+
+}
+.rotate{
+    transition:all 2s;
+    display:inline-block;
+  transform:rotate(3600deg)
+  
+}

@@ -14,13 +14,35 @@
   
 
   <nav>
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
+        <div class="top-bar">
+          <div class="top-bar-title">
+            <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+              <button class="menu-icon dark" type="button" data-toggle></button>
+            </span>
+            <strong><img class="symbol" alt="headsymbol" src="pix/symbol.png"></strong>
+          </div>
+          <div id="responsive-menu">
+            <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li>
+                  <a class="active" href="index.html">Home</a>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a>
+                    </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Web Class</a>
+                    <ul class="menu vertical">
+                    <li><a href="redesign/index.html">Responsive Design</a></li>
+                    <li><a href="animation/index.html">Animation Lab</a></li>
+                    <li><a href="longsiteport/index.html">Long Scrolling</a></li>
+                  </ul></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
   </nav>
+
 
 
       <article class="row "> 
